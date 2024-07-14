@@ -1,0 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.navbar{
+    height: 70px;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.textSimple{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.card {
+    max-width: 18rem;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.bg-custom {
+    background-color: #E83E8C;
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.bg-custom-section {
+    background-color: #17A2B8;
+    color: #fff; 
+    padding: 50px 0; 
+}
+
+.bg-custom-section .fab {
+    font-size: 4rem; 
+    margin: 0 25px;
+}
+
+#icons i {
+    cursor: pointer;
+}
